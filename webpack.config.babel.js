@@ -17,7 +17,7 @@ const vendor = [
   "react-redux",
   "redux-first-router",
   "history",
-  "recompose",
+  "recompose"
 ]
 
 export default {
