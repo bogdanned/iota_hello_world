@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/bogdanned/iota_hello_world#readme",
   "dependencies": {
+    "assets-webpack-plugin": "^3.5.1",
     "babel-cli": "^6.26.0",
     "babel-plugin-styled-components": "^1.1.7",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
@@ -27,9 +28,14 @@
     "babel-preset-es2017": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-types": "^6.26.0",
+    "compression-webpack-plugin": "^1.0.0",
     "express": "^4.15.4",
+    "express-reloadable": "^1.0.12",
+    "fs": "0.0.1-security",
+    "html-webpack-plugin": "^2.30.1",
     "iota.lib.js": "^0.4.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "webpack": "^3.5.5"
   },
   "devDependencies": {
     "babel-eslint": "^6.1.2",
