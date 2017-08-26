@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon --exec babel-node --presets es2015,es2017 server/index.js"
+    "dev": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -37,7 +37,8 @@
     "path": "^0.12.7",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "webpack": "^3.5.5"
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
   },
   "devDependencies": {
     "babel-eslint": "^6.1.2",

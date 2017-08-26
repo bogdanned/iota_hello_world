@@ -1,6 +1,5 @@
 import path from 'path'
 import webpack from 'webpack'
-import fs from "fs"
 import qs from 'querystring'
 import reloadable from "express-reloadable"
 import HtmlWebpackPlugin from "html-webpack-plugin"

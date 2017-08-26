@@ -4,7 +4,7 @@ import React from 'react'
 import App from "./components/App"
 
 
-const renderApp = (Component) => {
+const renderApp = () => {
   render(<div>IOTA Hello!</div>, document.getElementById("app"))
 }
 
