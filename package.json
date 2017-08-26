@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/bogdanned/iota_hello_world#readme",
   "dependencies": {
+    "babel-plugin-styled-components": "^1.1.7",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
     "express": "^4.15.4",
     "iota.lib.js": "^0.4.0"
   }
