@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/bogdanned/iota_hello_world/issues"
   },
-  "homepage": "https://github.com/bogdanned/iota_hello_world#readme"
+  "homepage": "https://github.com/bogdanned/iota_hello_world#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "iota.lib.js": "^0.4.0"
+  }
 }
