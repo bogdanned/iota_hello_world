@@ -8,23 +8,18 @@ const app = express()
 app.get('/', (req, res) => res.sendFile( path.resolve(__dirname, '../client/index.html')))
 
 
-const iota = new IOTA({
-    'host': 'http://localhost',
-    'port': 14265
+const iotaInstance = new IOTA({
+  provider: 'https://sandbox.iotatoken.com/api/v1/',
+  sandbox: true
 })
 
 
-app.get('/iota', (req, res) => res.send(200, 'IOTA Version: ' + iota.version ))
+app.get('/iota', (req, res) => res.send(200, 'IOTA Version: ' + iotaInstance.version ))
 
 app.get('/iota/node-info', (req, res) => {
-  iota.api.getNodeInfo(function(error, success) {
-      if (error) {
-          console.error(error);
-      } else {
-          console.log(success);
-      }
-  })
-  res.send(200, 'Node Info: ' + iota.version )
+  let nodeInfo = 'to be retirved ....'
+
+  res.send(200, 'Node Info: ' + nodeInfo )
 })
 
 
